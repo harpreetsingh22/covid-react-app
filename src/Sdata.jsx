@@ -1,34 +1,40 @@
-import web from "../src/images/s1.jpg";
-import app from "../src/images/app.jpeg";
-import android from "../src/images/android.jpeg";
-import digital from "../src/images/digital.jpeg";
-import marketing from "../src/images/marketing.jpg";
-import software from "../src/images/software.jpeg";
+import ppe  from "../src/images/ppe.jpg";
+import mask from "../src/images/mask.jpg";
+import shield from "../src/images/shield.jpg";
+import testkit from "../src/images/testkit.jpg";
+import gloves from "../src/images/gloves.jpg";
+import sanitizer from "../src/images/qw.jpg";
 
 const Sdata = [
   {
-    imgsrc: web,
-    title: "web development",
+    imgsrc: gloves,
+    title: "GLOVES",
+    
   },
   {
-    imgsrc: app,
-    title: "App development",
+    imgsrc: ppe,
+    title: "PPE KIT",
+    
   },
   {
-    imgsrc: software,
-    title: "Software development",
+    imgsrc: mask,
+    title: "MASK",
+    
   },
   {
-    imgsrc: digital,
-    title: "Digital Marketing",
+    imgsrc: sanitizer,
+    title: "SANITIZER",
+    
   },
   {
-    imgsrc: android,
-    title: "Android development",
+    imgsrc: shield,
+    title: "FACE SHIELD",
+   
   },
   {
-    imgsrc: marketing,
-    title: "Marketing",
+    imgsrc: testkit,
+    title: "CORONA TEST KIT",
+    
   },
 ];
 

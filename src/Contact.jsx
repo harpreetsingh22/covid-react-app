@@ -22,7 +22,7 @@ const Contact = () => {
   const formSubmit = (e) => {
     e.preventDefault();
     alert(
-      `My name is ${data.fullname}. My mobile number is ${data.phone} and email is ${data.email}, Here is what I watn to say ${data.msg}`
+      `Updates will be sent to ${data.fullname}. On mobile number:  ${data.phone} and through email at:  ${data.email}, regarding ${data.msg}`
     );
   };
 

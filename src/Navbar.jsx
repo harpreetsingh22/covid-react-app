@@ -10,7 +10,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
               <div className="container-fluid">
                 <NavLink className="navbar-brand" to="/">
-                  ThapaTechnical
+                   COVID 19 
                 </NavLink>
                 <button
                   className="navbar-toggler"
